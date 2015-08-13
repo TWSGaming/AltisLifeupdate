@@ -40,7 +40,7 @@ default {""};
 //gather check??
 if(vehicle player != player) exitWith {};
 
-if (_tool != "" && {if (EQUAL(ITEM_VALUE(_tool),0)) exitWith { true };false}) exitWith {hint format ["Du brauchst ein(e) %1",_tool];life_action_gathering = false;};
+if (_tool != "" && {if (EQUAL(ITEM_VALUE(_tool),0)) exitWith { true };false}) exitWith {hint format ["You need a %1",_tool];life_action_gathering = false;};
 
 
 _diff = [SEL(_gather,0),SEL(_gather,1),life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
