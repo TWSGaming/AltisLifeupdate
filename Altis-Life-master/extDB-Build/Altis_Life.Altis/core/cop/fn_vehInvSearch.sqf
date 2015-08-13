@@ -76,4 +76,3 @@ if(_value > 0) then {
 } else {
 	hint localize "STR_Cop_NoIllegalVeh";
 };
-*/
