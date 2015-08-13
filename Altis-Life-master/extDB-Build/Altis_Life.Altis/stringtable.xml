@@ -247,6 +247,7 @@
 		</Key>
 	</Package>
 	<Package name="ATM_Strings">
+	
 		<Key ID="STR_ATM_Title">
 			<Original>Bank Account Management</Original>
 			<German>Bankkonto verwalten</German>
@@ -371,6 +372,27 @@
  			<French>Vous avez déposé $%1 sur le compte bancaire de votre gang.</French>
 			<Italian>Hai despoitato €%1 nel conto bancario della tua gang</Italian>
 			<Portuguese>Você depositou R$%1 na conta de sua gangue.</Portuguese>
+ 		</Key>
+		<Key ID="STR_ATM_WithdrawMin1">
+ 			<Original>You can't withdraw less then €100</Original>
+			<German>Du kannst nicht weniger als €2 einzahlen</German>
+ 			<French>Vous ne pouvez pas retirer moins de €100</French>
+			<Italian>Non puoi prelevare meno di €100</Italian>
+			<Portuguese>Você não pode sacar menos de R€100.</Portuguese>
+ 		</Key>
+		<Key ID="STR_ATM_WithdrawMin3">
+ 			<Original>You can't withdraw less then €100</Original>
+			<German>Du kannst nicht weniger als €2 überweisen</German>
+ 			<French>Vous ne pouvez pas retirer moins de €100</French>
+			<Italian>Non puoi prelevare meno di €100</Italian>
+			<Portuguese>Você não pode sacar menos de R€100.</Portuguese>
+ 		</Key>
+		<Key ID="STR_ATM_WithdrawMin2">
+ 			<Original>You can't withdraw less then €100</Original>
+			<German>Du kannst nicht weniger als €2 abheben</German>
+ 			<French>Vous ne pouvez pas retirer moins de €100</French>
+			<Italian>Non puoi prelevare meno di €100</Italian>
+			<Portuguese>Você não pode sacar menos de R€100.</Portuguese>
  		</Key>
 	</Package>
 	<Package name="Cell_Phone">

@@ -17,6 +17,22 @@ class Life_Client_Core
 {
 	tag = "life";
 	
+	class ATM
+	{
+		file = "core\atm";
+		class atmMenu {};
+		class atmMenu_gang {};
+		class atmUpdate {};
+		class bankDeposit {};
+		class bankTransfer {};
+		class bankWithdraw {};
+		class nearATM {};
+		class numberText {};
+		class receiveMoney {};
+		class taxRate {};
+		class wireTransfer {};
+	};
+	
 	class Master_Directory
 	{
 		file = "core";
@@ -117,7 +133,6 @@ class Life_Client_Core
 	{
 		file = "core\config";
 		class itemWeight {};
-		class taxRate {};
 		class vehicleAnimate {};
 		class vehicleWeightCfg {};
 	};
@@ -161,12 +176,10 @@ class Life_Client_Core
 		class keyHandler {};
 		class dropItems {};
 		class handleDamage {};
-		class numberText {};
 		class handleItem {};
 		class accType {};
 		class receiveItem {};
 		class giveDiff {};
-		class receiveMoney {};
 		class playerTags {};
 		class clearVehicleAmmo {};
 		class pullOutVeh {};
@@ -189,7 +202,6 @@ class Life_Client_Core
 		class saveGear {};
 		class loadGear {};
 		class stripDownPlayer {};
-		class nearATM {};
 	};
 	
 	class Network
@@ -286,7 +298,6 @@ class Life_Client_Core
 	class Shops
 	{
 		file = "core\shops";
-		class atmMenu {};
 		class buyClothes {};
 		class changeClothes {};
 		class clothingMenu {};
@@ -333,16 +344,11 @@ class Life_Client_Core
 		class impoundMenu {};
 		class unimpound {};
 		class sellGarage {};
-		class bankDeposit {};
-		class bankWithdraw {};
-		class bankTransfer {};
 		class garageLBChange {};
 		class safeInventory {};
 		class safeOpen {};
 		class safeTake {};
 		class safeFix {};
 		class vehicleGarage {};
-		class gangDeposit {};
-		class wireTransfer {};
 	};
 };
