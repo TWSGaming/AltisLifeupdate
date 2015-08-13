@@ -67,7 +67,7 @@ while {player GVAR  "restrained"} do {
 //disableUserInput false;
 		
 if(alive player) then {
-	titleText["Du wurdest freigelassen.","PLAIN"];
+	titleText["You have been released.","PLAIN"];
 	player switchMove "";
 	player SVAR ["Escorting",false,true];
 	player SVAR ["transporting",false,true];
