@@ -43,6 +43,7 @@ class Life_Client_Core
 	{
 		file = "core\medical";
 		class onPlayerKilled {};
+		class hidebody {};
 		class onPlayerRespawn {};
 		class respawned {};
 		class revivePlayer {};
@@ -309,7 +310,6 @@ class Life_Client_Core
 	class Items
 	{
 		file = "core\items";
-		class pickaxeUse {};
 		class lockpick {};
 		class spikeStrip {};
 		class jerryRefuel {};

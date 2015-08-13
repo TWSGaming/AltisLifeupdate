@@ -2,7 +2,7 @@
 /*
 	File: fn_restrain.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+	Edit: Devilfloh
 	Description:
 	Retrains the client.
 */
@@ -53,16 +53,22 @@ while {player GVAR  "restrained"} do {
 		detach player;
 	};
 	
-	if(vehicle player != player) then {
+	if(vehicle player != player) then
+	{
 		//disableUserInput true;
-		if(driver (vehicle player) == player) then {player action["eject",vehicle player];};
+		if(driver (vehicle player) == player) then {player action["eject",vehicle player]; player action["getOut",vehicle player];};
+	}
+	else
+	{
+		//disableUserInput false;
 	};
 };
 
 //disableUserInput false;
 		
 if(alive player) then {
-	player switchMove "AmovPercMstpSlowWrflDnon_SaluteIn";
+	titleText["Du wurdest freigelassen.","PLAIN"];
+	player switchMove "";
 	player SVAR ["Escorting",false,true];
 	player SVAR ["transporting",false,true];
 	detach player;
